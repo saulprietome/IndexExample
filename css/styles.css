@@ -1,0 +1,495 @@
+
+@font-face {
+    font-family: HPSimplifield-bold;
+    src:url(../fonts/HPSimplified_Bd.ttf);
+}
+
+
+@font-face {
+    font-family: HPSimplifield-light;
+    src:url(../fonts/HPSimplified_Lt.ttf);
+}
+
+@font-face {
+    font-family: HPSimplifield-regular;
+    src:url(../fonts/HPSimplified_Rg.ttf);
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+h1 {
+    font-family: HPSimplifield-regular;
+}
+
+h2 {
+
+    font-family: HPSimplifield-light;
+    font-size: 25px;
+
+}
+
+h3 {
+
+    font-family: HPSimplifield-light;
+    font-size: 25px;
+    align-items: center;
+    text-align: center;
+    
+}
+body {
+    font-family: HPSimplifield-regular;
+}
+
+p {
+    font-family: HPSimplifield-light;
+}
+#block_Presentation {
+    color: white;
+    width: 100%;
+    height: 500px;
+    background:rgba(41, 156, 209, 0.8);  
+    background-size:cover;
+    background-position: right 10px bottom -230px;
+    justify-content: center;
+    text-align: center;
+    background-repeat: no-repeat;
+    overflow: hidden;
+    position: relative;
+    margin-bottom: 15px;
+}
+
+#block_Presentation h1 {
+    margin-bottom: 15px;
+}
+
+#block_Presentation h2 {
+    margin-bottom: 15px;
+}
+
+#block_Presentation button {
+    margin-top: 15px;
+}
+
+.img_back_block{         
+    position: absolute;
+    top: -700px;
+    left: 0;
+    width: 100%;
+    height: 1500px;
+    z-index: -50;
+}
+.block_Ptext button {
+    color: white;
+    border-radius: 2px solid;
+    border-style: solid;
+    border-radius: 7px;
+    padding: 15px;
+    background-color: transparent;
+    font-family: HPSimplifield-regular;
+    border-color: white;
+}
+.block_Ptext {
+    position: absolute;
+    width: 100%;
+    margin-top: 75px;
+
+}
+
+#slideShow {
+    width: 100%;
+    position: relative;
+    align-items: center;
+    align-content: center;
+    background: rgb(241, 241, 241); 
+ 
+}
+
+#slideShow h3 {
+    margin-bottom: 15px;
+    margin-top: 15px;
+}
+.slider ul, li {
+
+    display: flex;
+    align-content: center;
+    align-items: center;
+}
+
+.slider{
+    margin: 0px;
+}
+
+.slider li img {
+    width: 300px;
+    align-items: center;
+    align-content: center; 
+}
+
+.block_Slider{
+padding: 10px;
+font-size: 10px;  
+align-items: center;
+align-content: center;  
+margin-left: 45px;
+margin-right: 45px;
+position: relative;
+}
+
+.caption {
+    padding: 50px;
+    background: white;
+    align-items: center;
+    align-content: center;
+}
+.titleSlider {
+    font-family: HPSimplifield-light;
+    color: rgb(41, 156, 209);
+    align-content: center;
+    align-items: center;
+}
+ul,ol {
+    list-style: none;
+}
+
+.slider .caption {
+    position: relative;
+
+
+}
+
+
+.pagination {
+
+    top: 90%;
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+
+}
+
+.pagination li {
+    font-size: 20px;
+    margin: 52px 15px;
+    color: gray;
+    align-items: center;
+    align-content: center;
+    display:flex;
+}
+
+.left, .right {
+    position: absolute;
+    top: 0;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    color: rgb(41, 156, 209);
+    font-size: 20px;
+    cursor: pointer;
+}
+.left {
+    left: 10px;
+    margin-top: 115px;
+
+}
+
+.right {
+    right: 10px;
+    margin-top: 115px;
+
+}
+#block_Benefits {
+    padding: 70px;    
+}
+
+.block_Benefits_1 {
+    position: relative;
+    width: 85%;
+    margin: auto;
+    background-size: 300px 100px;
+    text-align: left;
+    overflow: hidden;
+    margin-bottom: 20px;
+    height: 500px;
+}
+.img_Bblock_1{        
+    position: absolute;
+    top: -800px;
+    left: 0px;
+    width:195%;
+    height: 430%;
+    z-index: -50;
+}
+
+.block_Btext_1 {
+    background:rgb(41, 156, 209, 0.8);
+    color: white;
+    height: 100%;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding: 0px 50px;
+}
+
+.block_Btext_1 h2{
+    font-size: 50px;
+}
+
+.block_Benefits_2 {
+    position: relative;
+    width: 85%;
+    margin: auto;
+    background-size:cover;
+    background-repeat: no-repeat;
+    overflow: hidden;
+    text-align: right;
+    margin-bottom: 20px;
+    height: 900px;
+}
+
+.img_Bblock_2{        
+    position: absolute;
+    top: -20px;
+    left: 10px;
+    width:100%;
+    z-index: -50;
+}
+
+.block_Btext_2 {
+    background:rgb(41, 156, 209, 0.8);
+    color: white;
+    height: 500px;
+    width: 650px;
+    position: absolute;
+    left: 50%;
+    top: 20%;
+    padding: 100px;
+}
+
+.block_Btext_2 h2{
+    font-size: 50px;
+    text-align: left;
+}
+
+.block_Btext_2 p{
+    text-align: left;
+}
+
+.block_Benefits_3 {
+    position: relative;
+    width: 85%;
+    margin: auto;
+    background-size: 300px 100px;
+    text-align: left;
+    overflow: hidden;
+    margin-bottom: 20px;
+    height: 500px;
+    
+}
+.img_Bblock_3{        
+    position: absolute;
+    top: -210px;
+    left: 0px;
+    width:100%;
+    z-index: -50;
+}
+
+.block_Btext_3 {
+
+    background:rgb(41, 156, 209, 0.8);
+    color: white;
+    height: 100%;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding: 0px 50px;
+}
+
+.block_Btext_3 h2{
+    font-size: 50px;
+}
+.block_Benefits_4 {
+    position: relative;
+    width: 85%;
+    margin: auto;
+    background-size:cover;
+    background-repeat: no-repeat;
+    overflow: hidden;
+    text-align: right;
+    margin-bottom: 20px;
+    height: 900px;
+}
+
+.img_Bblock_4{        
+    position: absolute;
+    transform: scaleX(-1);
+    top: -20px;
+    left: 10px;
+    width:100%;
+    z-index: -50;
+
+}
+
+.block_Btext_4 {
+    background:rgb(41, 156, 209, 0.8);
+    color: white;
+    height: 500px;
+    width: 650px;
+    left: 50%;
+    top: 20%;
+    padding: 100px;
+    position: absolute;
+
+}
+.block_Btext_4 h2{
+    font-size: 50px;
+    text-align: left;
+}
+
+.block_Btext_4 p{
+    text-align: left;
+}
+#block_about {
+    margin-top: 0px;
+    width: 100%;
+    padding: 5px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+#block_about h2 {
+    margin: auto;
+    margin-bottom: 15px;
+
+
+}
+#block_about li {
+    display: flex;
+    align-content: center;
+    margin: auto;
+}
+
+.list_about {
+    display: flex;
+    position: relative;
+    align-content: center;
+    width: 100%;
+
+}
+
+.block_Abox{
+    padding: 10px;
+    width: 100%;
+    font-size: 10px;  
+    align-items: center;
+    align-content: center;  
+    margin-left: 50px;
+    margin-right: 50px;
+    border: solid gray 0.1px;
+    }
+#block_about img {
+
+    width: 280px;
+}
+.textBlue {
+    color: rgba(41, 156, 209);
+    text-align: center;
+    font-size: 24px;
+}
+.titleAbout {
+    color: black;
+    font-family: HPSimplifield-light;
+}
+a {
+    text-decoration: none;
+    color: rgba(41, 156, 209);
+}
+
+footer {
+    font-family: HPSimplifield-light;
+    color: white;
+    align-content: center;
+    background-color:rgb(41, 156, 209);
+    width: 100%;
+    height: 400px;
+    padding: 30px 50px;
+    display: flex;
+    
+}
+
+footer>div{
+    margin: auto;
+}
+
+footer h2{
+    width: 700px;
+    margin: auto;
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+footer p{
+    width: 700px;
+    margin: auto;
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+footer button{
+    width: 250px;
+    margin: auto;
+    display: block;
+    color: white;
+    border-radius: 2px solid;
+    border-style: solid;
+    border-radius: 7px;
+    padding: 15px;
+    background-color: transparent;
+    font-family: HPSimplifield-regular;
+    border-color: white;
+    margin-bottom: 15px;
+
+}
+
+@media screen and (max-width: 600px) {
+
+    img {
+        display: none;
+
+
+    } 
+
+    h1 h2 h3 {
+        font-size: 14px;
+    }
+    .slider .caption p {
+        display: none; 
+    }
+
+    .slider .caption h1 {
+        font-size: 8px;
+    }
+
+    .left, .right {
+        font-size: 10px;
+        cursor: pointer;
+        z-index: 2;
+
+    }
+
+    .pagination {
+        display: none;
+    }
+
+    .block_Slider {
+        display: flex;
+    }
+}
